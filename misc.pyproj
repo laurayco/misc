@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{62dec0a3-e026-4426-af81-c11a03ccb230}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>rss.py</StartupFile>
+    <StartupFile>gpusim.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,6 +21,7 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="gpusim.py" />
     <Compile Include="rss.py" />
     <Compile Include="word_search.py" />
   </ItemGroup>
